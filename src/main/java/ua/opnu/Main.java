@@ -121,7 +121,6 @@ public class Main {
             System.out.println("2^" + n + " = " + pow2.apply(n));
         }
         System.out.println("\nЗавдання 7");
-
         Function<Integer, String> numberToString = n -> switch (n) {
             case 0 -> "нуль";
             case 1 -> "один";

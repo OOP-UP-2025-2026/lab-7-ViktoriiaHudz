@@ -12,7 +12,6 @@ public class Student {
         this.group = group;
         this.marks = marks;
     }
-
     public String getName() {
         return name;
     }
